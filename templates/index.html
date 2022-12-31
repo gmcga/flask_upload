@@ -1,0 +1,18 @@
+<!-- basic html for the webpage with a button-->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <title>Take a PiCamera Picture</title>
+</head>
+<body>
+    <h1>PiCamera Picture</h1>
+
+        <form method="post" action="/"> <!-- button used to activate picamera -->
+            <input type="submit" value="Press to get picture" name="action1"/>
+        </form>
+        <img src="{{ user_image }}" alt="Press the button to get an image!">
+</body>
+</html>
+
