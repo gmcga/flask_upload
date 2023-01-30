@@ -3,7 +3,7 @@
 Locally-hosted webpage made using Flask, ran on Raspberry Pi. The user can press a button on the webpage that causes the PiCamera attached to the Pi to take a picture which is then uploaded to the webpage.
 
 ### How to install and set up a virtual environment for flask_upload on your Raspberry Pi
-*Note: flask_upload code was written for Python version 3.7.3; it is advised to have at least this version installed to prevent any issues from occuring.*
+*Note: flask_upload code was written for Python version 3.7.3; it is advised to have this version (ideally, or a newer version) installed to prevent any issues from occuring.*
 - download all the flask_upload files to your Raspberry Pi from GitHub
 - open a command line on the Raspberry Pi or [ssh into it](https://itsfoss.com/ssh-into-raspberry/) using the command prompt or your favourite IDE 
 - within the IDE, navigate to the flask_upload directory using `cd` [helpful article if you aren't familiar with cd](https://www.onmsft.com/how-to/change-directories-command-prompt-windows-10-11)
